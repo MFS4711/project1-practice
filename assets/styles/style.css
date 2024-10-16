@@ -5,6 +5,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #fafafa;
 }
 
 h1,
@@ -20,6 +21,10 @@ h6 {
 
 .general-sub {
     margin-top: 20px;
+}
+
+main {
+    height: 600px;
 }
 
 /* ------------------------------------------------ Colors */
