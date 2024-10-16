@@ -3,27 +3,38 @@
 
 /* ------------------------------------------------ General */
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 h1 {
     font-family: "Lato", sans-serif;
 }
 
-p {
-    font-family: "Roboto", sans-serif;
+/* ------------------------------------------------ Colors */
+
+.bg-color-green {
+    background-color: #D3FAD6;
 }
 
 /* ------------------------------------------------ Header */
-header {
-    background-color: #D3FAD6;
-    font-size: 32px;
-}
-.logo-1 {
-    font-family: "Lato", sans-serif;
+
+#logo-1, #logo-2 {
+    font-size: 1.5rem;
     font-weight: 700;
+}
+
+#logo-1 {
+    font-family: "Lato", sans-serif;
     color: #51B9F6;
 }
 
-.logo-2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
+#logo-2 {
     color: #1C5E84;
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+    color: #191923;
+    font-weight: 500;
 }
