@@ -21,6 +21,10 @@ h6 {
     text-align: center;
 }
 
+p {
+    margin-bottom: 0;
+}
+
 .general-sub {
     margin-top: 20px;
 }
@@ -49,6 +53,18 @@ hr {
 
 .bg-color-white {
     background-color: #fafafa;
+}
+
+.bg-color-blue {
+    background-color: #51B9F6;
+}
+
+.bg-color-pink {
+    background-color: #D6A2AD;
+}
+
+.bg-color-purple {
+    background-color: #EA68F3;
 }
 
 /* ------------------------------------------------ Header */
@@ -99,7 +115,14 @@ hr {
 }
 
 /* ------------------------------------------------ Purpose */
+.button-links {
+    height: 150px;
+    border: #fafafa solid 2px;
+}
 
+.button-links a > h3 {
+    margin-top: 10px;
+}
 
 /* ------------------------------------------------ Footer */
 footer {
@@ -116,6 +139,7 @@ footer {
 .social-links li a {
     color: #191923;
     font-size: 1.5rem;
+    padding-top: 5px;
 }
 
 .charity-links {
@@ -158,5 +182,10 @@ footer {
     #hero > .blockquote {
         width: 60%;
         top: 15%;
+    }
+
+    /* ------ Button links */
+    .button-links {
+        height: 200px;
     }
 }
