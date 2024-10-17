@@ -5,7 +5,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #fafafa;
 }
 
 h1,
@@ -67,6 +66,23 @@ hr {
 
 .navbar-nav .nav-link:hover {
     color: #51B9F6;
+}
+
+/* ------------------------------------------------ Hero */
+#hero {
+    width: 100%;
+    height: 600px;
+    background: url("../images/pexels-m-venter-792254-1659438.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero > .blockquote {
+    position: absolute;
+    width: 60%;
+    right: 10%;
+    top: 5%;
+    text-align: right;
 }
 
 /* ------------------------------------------------ Footer */
