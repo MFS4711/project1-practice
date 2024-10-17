@@ -125,17 +125,46 @@ hr {
 /* ------------------------------------------------ Button links */
 .button-links {
     border: #fafafa solid 2px;
-    height: 200px;
+    height: 220px;
 }
+
+/* .btn-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.flex-center {
+    align-self: center;
+}
+
+.flex-end {
+    align-self: flex-end;
+} */
 
 .button-links a > p {
     margin-top: 10px;
-}
+} 
 
 .button-links a h3 {
     margin: 10px auto;
 }
 
+.mindefulness-btn {
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.health-information-btn {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+ 
 .get-involved-btn {
     padding-top: 10px;
     padding-bottom: 20px;
@@ -195,6 +224,13 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+    /* ------ Nav Flex */
+
+    .flex-parent {
+        display: flex;
+        align-items: center;
+    }
 
     /* ------ Hero Section */
     #hero > .blockquote {
