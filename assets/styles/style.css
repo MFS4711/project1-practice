@@ -24,13 +24,22 @@ h6 {
 }
 
 main {
-    height: 600px;
+    min-height: 80vh;
+}
+
+hr {
+    width: 40vw;
+    border: #fafafa solid 2px;
 }
 
 /* ------------------------------------------------ Colors */
 
 .bg-color-green {
     background-color: #D3FAD6;
+}
+
+.bg-color-white {
+    background-color: #fafafa;
 }
 
 /* ------------------------------------------------ Header */
@@ -58,7 +67,6 @@ main {
 
 /* ------------------------------------------------ Footer */
 footer {
-    min-height: 100vh;
     text-align: center;
 }
 
@@ -71,5 +79,16 @@ footer {
 .social-links li a {
     color: #191923;
     font-size: 1.5rem;
-    margin: 0;
+}
+
+.charity-links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.charity-links li a {
+    color: #191923;
+    font-size: 0.9rem;
 }
