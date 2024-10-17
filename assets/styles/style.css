@@ -160,13 +160,15 @@ hr {
 }
 
 .mindefulness-btn {
-    padding-top: 25px;
-    padding-bottom: 35px;
+    padding-top: 15px;
 }
 
 .health-information-btn {
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.community {
+    padding-top: 15px;
 }
  
 .get-involved-btn {
@@ -217,6 +219,10 @@ hr {
     position: relative;
     width: 60%;
     text-align: left;
+}
+
+.event-info {
+    margin-bottom: 20px;
 }
 
 /* ------------------------------------------------ Footer */
@@ -275,6 +281,14 @@ footer {
         width: 45%;
         top: 10%;
     }
+
+    .get-involved-btn {
+        padding-top: 30px;
+    }
+
+    .event-info-block {
+        padding-top: 35px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -289,5 +303,9 @@ footer {
     /* ------ Button links */
     .button-links {
         height: 250px;
+    }
+
+    .event-info-block {
+        padding-top: 60px;
     }
 }
