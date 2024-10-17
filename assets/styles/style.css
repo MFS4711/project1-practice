@@ -65,6 +65,10 @@ hr {
     font-weight: 500;
 }
 
+.navbar-nav .nav-link:hover {
+    color: #51B9F6;
+}
+
 /* ------------------------------------------------ Footer */
 footer {
     text-align: center;
@@ -74,6 +78,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 0;
 }
 
 .social-links li a {
