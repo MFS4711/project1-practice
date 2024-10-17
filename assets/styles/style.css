@@ -124,6 +124,16 @@ hr {
     margin-top: 10px;
 }
 
+.event-details {
+    line-height: 0;
+}
+
+.details {
+    font-family: "Roboto", sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+}
+
 /* ------------------------------------------------ Footer */
 footer {
     text-align: center;
