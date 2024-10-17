@@ -46,6 +46,10 @@ hr {
     border: #fafafa solid 2px;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* ------------------------------------------------ Colors */
 
 .bg-color-green {
@@ -171,7 +175,7 @@ hr {
 }
 
 /* ------------------------------------------------ Upcoming event */
-.event-details {
+/* .event-details {
     line-height: 0;
 }
 
@@ -179,6 +183,40 @@ hr {
     font-family: "Roboto", sans-serif;
     font-size: 80%;
     font-weight: 500;
+} */
+
+.event-info-heading h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.event-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.event-info-item .key,
+.event-info-item .value {
+    display: inline-block;
+}
+
+.event-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.event-info-item .key p {
+    font-weight: 600;
+}
+
+.event-info-item .value {
+    position: relative;
+    width: 60%;
+    text-align: left;
 }
 
 /* ------------------------------------------------ Footer */
