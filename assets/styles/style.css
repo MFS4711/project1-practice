@@ -71,9 +71,8 @@ hr {
 /* ------------------------------------------------ Hero */
 #hero {
     width: 100%;
-    height: 600px;
-    background: url("../images/pexels-m-venter-792254-1659438.jpg") no-repeat;
-    background-size: cover;
+    height: 70vh;
+    background: url("../images/pexels-m-venter-792254-1659438.jpg") no-repeat 50% 15% /cover;
     position: relative;
 }
 
@@ -82,6 +81,10 @@ hr {
     width: 60%;
     right: 10%;
     top: 5%;
+    text-align: right;
+}
+
+#hero > .blockquote .blockquote-footer {
     text-align: right;
 }
 
@@ -112,4 +115,35 @@ footer {
 .charity-links li a {
     color: #191923;
     font-size: 0.9rem;
+}
+
+/* ------------------------------------------------ Media Queries */
+
+/* ------------------ large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+    /* ------ Hero Section */
+    #hero {
+        background-position: 30% 28%;
+    }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* ------ Hero Section */
+    #hero > .blockquote {
+        width: 45%;
+        top: 10%;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* ------ Hero Section */
+    #hero > .blockquote {
+        width: 60%;
+        top: 15%;
+    }
 }
