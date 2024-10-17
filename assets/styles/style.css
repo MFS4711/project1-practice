@@ -5,6 +5,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
 h1,
@@ -16,6 +17,8 @@ h6 {
     font-family: "Lato", sans-serif;
     font-weight: 600;
     color: #191923;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .general-sub {
@@ -28,6 +31,13 @@ main {
 
 hr {
     width: 40vw;
+}
+
+.hr-green {
+    border: #D3FAD6 solid 2px;
+}
+
+.hr-white {
     border: #fafafa solid 2px;
 }
 
@@ -87,6 +97,9 @@ hr {
 #hero > .blockquote .blockquote-footer {
     text-align: right;
 }
+
+/* ------------------------------------------------ Purpose */
+
 
 /* ------------------------------------------------ Footer */
 footer {
