@@ -23,6 +23,7 @@ h6 {
 
 p {
     margin-bottom: 0;
+    color: #191923;
 }
 
 .general-sub {
@@ -34,7 +35,7 @@ main {
 }
 
 hr {
-    width: 40vw;
+    width: 10vw;
 }
 
 .hr-green {
@@ -108,22 +109,39 @@ hr {
     right: 10%;
     top: 5%;
     text-align: right;
+    font-weight: 500;
 }
 
 #hero > .blockquote .blockquote-footer {
     text-align: right;
 }
 
-/* ------------------------------------------------ Purpose */
-.button-links {
-    height: 150px;
-    border: #fafafa solid 2px;
+/* ------------------------------------------------ Purpose Section */
+.purpose-content {
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 
-.button-links a > h3 {
+/* ------------------------------------------------ Button links */
+.button-links {
+    border: #fafafa solid 2px;
+    height: 200px;
+}
+
+.button-links a > p {
     margin-top: 10px;
 }
 
+.button-links a h3 {
+    margin: 10px auto;
+}
+
+.get-involved-btn {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* ------------------------------------------------ Upcoming event */
 .event-details {
     line-height: 0;
 }
@@ -196,6 +214,6 @@ footer {
 
     /* ------ Button links */
     .button-links {
-        height: 200px;
+        height: 250px;
     }
 }
