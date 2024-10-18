@@ -225,6 +225,29 @@ hr {
     margin-bottom: 20px;
 }
 
+/* ------------------------------------------------ Mindefulness page */
+
+.meditation-video {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.challenge {
+    border: #191923 solid 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.challenge > h4 {
+    margin-top: 0;
+}
+
+.challenge-icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
 /* ------------------------------------------------ Footer */
 footer {
     text-align: center;
@@ -288,6 +311,12 @@ footer {
 
     .event-info-block {
         padding-top: 35px;
+    }
+
+    .challenge-details {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
 
