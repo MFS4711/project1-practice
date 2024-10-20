@@ -225,6 +225,10 @@ hr {
     margin-bottom: 20px;
 }
 
+.card img {
+    height: 250px;
+}
+
 /* ------------------------------------------------ Mindefulness page */
 
 .meditation-video {
