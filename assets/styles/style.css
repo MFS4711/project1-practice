@@ -53,7 +53,7 @@ hr {
 /* ------------------------------------------------ Colors */
 
 .bg-color-green {
-    background-color: #D3FAD6;
+    background-color: #B6F7BB;
 }
 
 .bg-color-white {
@@ -61,11 +61,11 @@ hr {
 }
 
 .bg-color-blue {
-    background-color: #51B9F6;
+    background-color: #64C1F7;
 }
 
 .bg-color-pink {
-    background-color: #D6A2AD;
+    background-color: #EAAECA;
 }
 
 .bg-color-purple {
@@ -82,7 +82,7 @@ hr {
 
 #logo-1 {
     font-family: "Lato", sans-serif;
-    color: #51B9F6;
+    color: #64C1F7;
 }
 
 #logo-2 {
@@ -124,6 +124,29 @@ hr {
 .purpose-content {
     font-weight: 500;
     font-size: 1.2rem;
+}
+
+/* ------------------------------------------------ Nav Card Section */
+.card-deck {
+    margin: 25px auto;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #fafafa;
+}
+
+.card img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card > a {
+    text-decoration: none;
+}
+
+.card:hover {
+    border: #1C5E84 solid 5px;
 }
 
 /* ------------------------------------------------ Button links */
@@ -344,7 +367,7 @@ footer {
 }
 
 @media screen and (min-width: 1440px) {
-    body {
+    main {
         max-width: 1440px;
         margin: 0 auto;
     }
