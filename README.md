@@ -1,4 +1,4 @@
-# Project Title
+# Mindful Connect
 
 ## Overview
 
@@ -6,9 +6,17 @@
 A brief description of the project's purpose, what it aims to achieve, and the value it provides to the users.  
 **Guidance:** Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
 
+Mindful Connect is a fictional organisation which aims to raise awareness about mental health and foster a supportive community for individuals seeking help or wanting to learn more about mental wellness.
+This is achieved by providing organised webpages dedicated to different aspects of the purpose. 
+One webpage will be dedicated to providing a beginner friendly information about mental health which will include common issues and manage stress as requested by the project brief.
+Further to this, there will be pages which will encourage users to get involved in daily challenges or take part in guided/group sessions and events.
+There will also be the ability for users to get involved as part of the organisation.
+This project will provide value to users by not only acting as an educational source but also providing a community to be a part of.
+
 ### Target Audience
 Identify the target audience for your website and explain why this audience will benefit from the project.  
 **Guidance:** Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
+The target audience of this project will be for people who are looking for ways to keep on top of their mental health and looking for methods/communities they can get involved in.
 
 ## User Stories
 
