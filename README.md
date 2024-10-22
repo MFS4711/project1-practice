@@ -2,6 +2,8 @@
 ![Logo image for project](assets/images/readme-images/Mindful-connect-readme-image.png "Mindful Connect")
 ## Overview
 
+[Live Project](https://mfs4711.github.io/portfolio-project-1/)
+
 ### Purpose
 
 Mindful Connect is a fictional organisation which aims to raise awareness about mental health and foster a supportive community for individuals seeking help or wanting to learn more about mental wellness.
@@ -307,12 +309,6 @@ I will outline the errors / warnings encountered and how these were resolved in 
 - Completed after validating all html pages
 - No errors or warnings found
 
-## AI Tools Usage
-
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
-
 ## Deployment
 
 ### Deployment Process
@@ -325,19 +321,7 @@ Before deploying the project, I ensured to code a navbar to be able to see if th
 The deployment process involved publishing my main branch and root directory which took a few minutes before completing.
 The deployed project updated as required after each git push and few, if any, issues were encountered.
 
-## AI Tools Usage
-
-### Reflection
-Describe the role AI tools played in the deployment process, including any benefits or challenges.  
-**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
-
 ## Reflection on Development Process
-
-### Successes
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
-
-### Challenges
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
 
 ### Final Thoughts
 Provide any additional insights gained during the project and thoughts on the overall process.  
