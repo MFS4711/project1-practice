@@ -1,5 +1,5 @@
 # Mindful Connect
-![Alt text](assets/images/Mindful-connect-readme-image.png "a title")
+![Logo image for project](assets/images/readme-images/Mindful-connect-readme-image.png "Mindful Connect")
 ## Overview
 
 ### Purpose
@@ -8,13 +8,13 @@ A brief description of the project's purpose, what it aims to achieve, and the v
 
 Mindful Connect is a fictional organisation which aims to raise awareness about mental health and foster a supportive community for individuals seeking help or wanting to learn more about mental wellness.
 This is achieved by providing organised webpages dedicated to different aspects of the purpose. 
-There is a webpage dedicated to mental health information, providing an introduction to mental health issues and the actions a person can take to deal with this as well as the support available. There will be another webpage dedicated to weel;y events and providing the option to join the community. Further to this, there is guidance towards wellness and self-care, providing external links.
+There is a webpage dedicated to mental health information, providing an introduction to mental health issues and the actions a person can take to deal with this as well as the support available. There will be another webpage dedicated to weekly events and providing the option to join the community. Further to this, there is guidance towards wellness and self-care through the application of external links.
 
 ### Target Audience
 Identify the target audience for your website and explain why this audience will benefit from the project.  
 **Guidance:** Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
 
-The target audience for this project are individuals/groups looking to engage with others who are looking to further their knowledge into mental wellness. This is achieved as there is a beginners guide to mental health and there is an emphasis placed on joining the community and taking part in the events.
+The target audience for this project are individuals/groups looking to engage with others who are looking to further their knowledge into mental wellness. This is achieved as there is a beginners guide to mental health and there is an emphasis placed on joining the community and taking part in the events. The intended user does not need to be suffering from a mental health condition to find benefit in accessing the webpage, although this has been catered for, they can simply be wary of mental health being prevelant and looking at ways to ensure their's is kept on top of.
 
 ## User Stories
 
@@ -52,42 +52,121 @@ Include wireframes for key sections of your website.
 Briefly describe the design choices, including layout, colour schemes, and fonts.  
 **Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
 
-#### Mobiles
+In this section I will illustrate my initial intended layout through use of wireframes and outline why I chose the colours I did. The layout was constructed to make use of the space as the viewport grew up to a point, 1440px, and so the content appeared differently on mobiles compared to larger screens.
+
+#### index.html (homepage)
+
+##### Mobiles
 On Mobile, the page should open showing the navbar displayed and the hero image with a quote on top of it. The Navbar will appear from a burger icon. As you scroll down the page the purpose paragraph would first show on a white background followed by the 6 Nav Cards which will be on top of a blue background. The Nav Cards would appear in a single file column. Below this there will be the upcoming event section, which will appear in a column with the event description and sign up button above the map iframe. This will be followed by the footer with links and socials which would appear one top of the other.
 
-#### Tablets
+![Wireframe for Mobile](assets/images/readme-images/wireframe-mobile-index.png "Wireframe for Mobile")
+
+##### Tablets
 On Tablets, the page will open with the hero image taking up a similar percentage of the viewport. The navbar will be expanded to show the webpage links. The purpose section appears next and following this the Nav Cards. As opposed to the mobile view, the tablet view will show the nav cards in two rows with three cards in each. Following this, the Upcoming Event heading would appear and below will be the event information on the left of the screen and the map to the right, so appearing in the same row. The footer will then be visible which will now show the footer items in a horizontal line across the width of the screen rather than stacked as they were on mobile.
 
-#### Laptops
+![Wireframe for Tablet](assets/images/readme-images/wireframe-tablet-index.png "Wireframe for Tablet")
+
+##### Laptops
 The layout will be identical to the tablet view, the content will just appear larger.
 
-#### Screens over 1440px
+![Wireframe for Laptop](assets/images/readme-images/wireframe-laptop-index.png "Wireframe for Laptop")
+
+##### Screens over 1440px
 On screens above 1440px the webpage will stop growing and just appear horizontally centered. There will be equal margins on both sides.
+
+![Wireframe for Larger Screens](assets/images/readme-images/wireframe-larger-index.png "Wireframe for Larger Screens")
+
+#### health-information.html
+
+##### Mobiles
+On Mobile, the page should open showing the navbar displayed followed by a main header for the page. Below this will be a short section introducing mental health followed by a section with a series of common mental health issues cards with links to external resources. These cards will appear in a single file column. The following section similarly consists of cards for managing stress and then a section for a card showing information about support options. There is another section of 3 cards in a clumn and a final paragraph block followed by the footer. On this page, there are no cards appearing side to side.
+
+![Wireframe for Mobile](assets/images/readme-images/wireframe-mobile-health.png "Wireframe for Mobile")
+
+##### Tablets
+On Tablets, the page will follow the same layout as above other than the layourt of the cards. These will appear in 2 rows of 3, so 6 in total, for sections 2 and 3. For section 4, there will be a single large card spanning the width of the container with a get help button. Below this there is one row of 3 cards with resource links. The final paragraph spans the width of the next section and the footer items appear in-line.
+
+![Wireframe for Tablet](assets/images/readme-images/wireframe-tablet-health.png "Wireframe for Tablet")
+
+##### Laptops
+The layout will be identical to the tablet view, the content will just appear larger.
+
+![Wireframe for Laptop](assets/images/readme-images/wireframe-laptop-health.png "Wireframe for Laptop")
+
+##### Screens over 1440px
+On screens above 1440px the webpage will stop growing and just appear horizontally centered. There will be equal margins on both sides.
+
+![Wireframe for Larger Screens](assets/images/readme-images/wireframe-larger-health.png "Wireframe for Larger Screens")
+
+#### health-information.html
+
+##### Mobiles
+On Mobile, the page should open showing the navbar displayed followed by a main header for the page. Below this will be a a section with 3 event cards appearing in a single file column. Below this is the section with a sign up form followed by the footer.
+
+![Wireframe for Mobile](assets/images/readme-images/wireframe-mobile-get.png "Wireframe for Mobile")
+
+##### Tablets
+On Tablets, the page will open with the navbar at the top followed by a single row of 3 cards for the events. This will be followed by a form which will have a slightly different layout to mobile to use the width of the container i.e. some form elements may now appear in the same row.
+
+![Wireframe for Tablet](assets/images/readme-images/wireframe-tablet-get.png "Wireframe for Tablet")
+
+##### Laptops
+The layout will be identical to the tablet view, the content will just appear larger.
+
+![Wireframe for Laptop](assets/images/readme-images/wireframe-laptop-get.png "Wireframe for Laptop")
+
+##### Screens over 1440px
+On screens above 1440px the webpage will stop growing and just appear horizontally centered. There will be equal margins on both sides.
+
+![Wireframe for Larger Screens](assets/images/readme-images/wireframe-larger-get.png "Wireframe for Larger Screens")
+
+#### Colours
+The colours used during the course of this project for both background and content have been chosen with both accessibility and the target user in mind. Research suggests that this website should have calm, pastel colours to provide a tranquil feeling to a user accessing the website as such blue, green, yellow and pink were the main suggestions. I also understood that there should be a clear contrast between the background and text appearing in front of it as well as there being a consistent colour layout to make it easier for the user to distinguish between different areas of the page. On this basis, the colours of this project were chosen and I will explain below how and why each colour was used.
+
+###### Light Green - #B6F7BB
+This was used for the background colour of the header and footer as it was considered a calming colour which allowed the content above to be viewed better.
+
+###### Dark Blue - #1C5E84
+This was used for one of the logo words of the logo which appears in the navbar. This provided good contrast from the green background and was used to provide a two toned nature to the logo.
+
+###### Dark Purple - #170358
+This was used for one of the logo words of the logo which appears in the navbar. This provided good contrast from the green background and was used to provide a two toned nature to the logo.
+
+###### Light blue - #64C1F7
+This was arguably the most common colour as it was used more most of the backgrounds. It provides a calm, sea-like enironment for content to sit on top. It does not catch the user's eye, as to take away from the content which is what the user's eyes should be drawn to.
+
+###### yellow/gold -  #FFD61F
+This was used like a banner to mark more current/active events and ideally would draw the user's attention. This is brighter than the other colours used to provide more emphasis for the reasons stated. This is used on the get involved paged and the evtn header at the bottom of the homepage.
+
+###### Off-White - #fafafa
+This was used predominantly as a background colour which signified the first and last section of the webpage, immediately after the header and immediately before the footer respectively. This was used as an indicator for users that they are approaching the end of the webpage and also contained useful information for the user to take away. This was also used as a description of the tiles on the health information page to provide a subtle hint that the tiles can be clicked.
+
+###### Shade of Black - #191923
+This was used as the font colour for the majority of the page. This provided excellent contrast from the backgraounds used, thus making the content readable. Prior to applying this colour, it was put through an accessibility checker which indicated it was good to use.
+
+#### Fonts
+There were two fonts used for this project, Roboto and Lato. Lato was used for the headings where as Roboto was used for all other content. The reason for this was that Roboto is one of the most used fonts on the internet and provides a proffessional feel to the webpage. I did not want users to be focused on the font but rather the information and so I felt I should keep with the norm. Lato is a similar font to Roboto and so provides a subtle difference between heading and content.
+
 
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
 **Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
 
-#### Colours
-The colours used during the course of this project for both background and content have been chosen with both accessibility and the target user in mind. Research suggests that this website should have calm, pastel colours to provide a tranquil feeling to a user accessing the website as such blue, green, yellow and pink were the main suggestions. I also understood that there should be a clear contrast between the background and text appearing in front of it as well as there being a consistent colour layout to make it easier for the user to distinguish between different areas of the page. On this basis, the colours of this project were chosen and I will explain below how and why each colour was used.
+#### Colour Contrast
+I ensured to adhere to accessibility guidelines by using the combinations of colours I picked. I used [Coolers Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5) to examine the colours used during the project. A change in the logo was made after completing this check as the initial colour used didn't pass the contrast check. Below you will find the results of the various contrast checks I completed where I compared the background colour with the foreground content:
 
-##### Light Green - #B6F7BB
-This was used for the background colour of the header and footer as it was considered a calming colour which allowed the content above to be viewed better.
+![Logo 1 text](assets/images/readme-images/logo-1.png "Logo 1 text")
 
-##### Dark Blue - #1C5E84
-This was used for one of the logo words of the logo which appears in the navbar. This provided good contrast from the green background as was used to provide a two toned nature to the logo.
+![Logo 2 text](assets/images/readme-images/log-2.png "Logo 2 text")
 
-##### Light blue - #64C1F7
-This was arguably the most common colour which appears as it is used for one of the words of the logo and also the predominant background of the webpage sections. In the logo, it provides the desired two tone nature and provides good contrast to the green background. In the background, it provides a calm, sea-like enironment for content to sit on top. It does not catch the user's eye, as to take away from the content which is what the user's eyes should be drawn to.
+![black text - off-white background](assets/images/readme-images/black-white-bg.png "black text - off-white background")
 
-##### yellow/gold -  #FFD61F
-This was used like a banner to mark more current/active events and ideally would draw the user's attention. This is brighter than the other colours used to provide more emphasis for the reasons stated. This is used on the get involved paged and the evtn header at the bottom of the homepage.
+![black text - blue background](assets/images/readme-images/black-blue-bg.png "black text - blue background")
 
-##### Off-White - #fafafa
-This was used predominantly as a background colour which signified the first and last section of the webpage, immediately after the header and immediately before the footer respectively. This was used as an indicator for users that they are approaching the end of the webpage and also contained useful information for the user to take away. This was also used as a description of the tiles on the health information page to provide a subtle hint that the tiles can be clicked.
+![black text - yellow background](assets/images/readme-images/black-yellow-bg.png "black text - yellow background")
 
-##### Shade of Black - #191923
-This was used as the font colour for the majority of the page. This provided excellent contrast from the backgraounds used, thus making the content readable. Prior to applying this colour, it was put through an accessibility checker which indicated it was good to use.
+![black text - pink background](assets/images/readme-images/black-pink-bg.png "black text - pink background")
+
 
 ## AI Tools Usage
 
