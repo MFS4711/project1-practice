@@ -291,6 +291,32 @@ I will outline the errors / warnings encountered and how these were resolved in 
 - Resolved by removing the button code and adding the role=button attribute to the anchor tag
 - Validation showed no errors or warnings after making this change.
 
+##### Validation 7
+- completed on get-involved page
+- errors shown relating to ids for modal forms not being unique
+- warning regarding too many hyphens on comment
+- Amended id's to make them unique and easier to read
+- Removed additional hyphens from html comment 
+- Validation showed no errors or warnings after making this change.
+
+##### Validation 8
+- completed on index.html page
+- Amended modal id to make unique prior to validating - as error previously seen
+- Validation showed no errors or warnings after making this change.
+
+##### Validation 9
+- Completed on index.html page after all webpages complete and accessibility check changes made
+- error found relating to a missing closing span in the collapsible nav button
+- Resolved by adding closing span
+- Validation showed no errors or warnings after making this change.
+
+##### Validation 10
+- Completed on health info page
+- No errors or warnings found
+
+##### Validation 11
+- Completed on get involved page
+- No errors or warnings found
 
 #### CSS Validation
 CSS validation was achieved using the Jigsaw Validator which ensured the code met web standards. I chose to validate numerous times during the project to ensure any errors or warnings could be resolved early in the process.
@@ -313,6 +339,13 @@ I will outline the errors / warnings encountered and how these were resolved in 
 - Completed after adding all navcards and events info to index.html, and creating health-information.html - also adding common mental health conditions section
 - No errors or warnings found 
 
+##### Validation 5
+- Completed after get-involved page was completed
+- No errors or warnings found
+
+##### Validation 6
+- Completed after validating all html pages
+- No errors or warnings found
 
 ## AI Tools Usage
 

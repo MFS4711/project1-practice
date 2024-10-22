@@ -17,13 +17,14 @@ h6 {
     font-family: "Lato", sans-serif;
     font-weight: 600;
     color: #191923;
-    margin-top: 20px;
+    padding-top: 150px;
     text-align: center;
 }
 
 p {
     margin-bottom: 0;
     color: #191923;
+    font-size: 1.5rem;
 }
 
 .general-sub {
@@ -76,13 +77,13 @@ hr {
 
 #logo-1,
 #logo-2 {
-    font-size: 1.5rem;
+    font-size: 5rem;
     font-weight: 700;
 }
 
 #logo-1 {
     font-family: "Lato", sans-serif;
-    color: #64C1F7;
+    color: #170358;
 }
 
 #logo-2 {
