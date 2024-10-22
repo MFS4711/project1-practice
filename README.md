@@ -1,5 +1,5 @@
 # Mindful Connect
-
+![Alt text](assets/images/Mindful-connect-readme-image.png "a title")
 ## Overview
 
 ### Purpose
@@ -8,21 +8,13 @@ A brief description of the project's purpose, what it aims to achieve, and the v
 
 Mindful Connect is a fictional organisation which aims to raise awareness about mental health and foster a supportive community for individuals seeking help or wanting to learn more about mental wellness.
 This is achieved by providing organised webpages dedicated to different aspects of the purpose. 
-One webpage will be dedicated to providing a beginner friendly information about mental health which will include common issues and manage stress as requested by the project brief.
-Further to this, there will be pages which will encourage users to get involved in daily challenges or take part in guided/group sessions and events.
-There will also be the ability for users to get involved as part of the organisation.
-This project will provide value to users by not only acting as an educational source but also providing a community to be a part of.
+There is a webpage dedicated to mental health information, providing an introduction to mental health issues and the actions a person can take to deal with this as well as the support available. There will be another webpage dedicated to weel;y events and providing the option to join the community. Further to this, there is guidance towards wellness and self-care, providing external links.
 
 ### Target Audience
 Identify the target audience for your website and explain why this audience will benefit from the project.  
 **Guidance:** Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
 
-There are two main audiences I am targeting for this project; those who are looking for an introduction to mental health topics and how to manage stress, and those who are looking to connect with like-minded people. I will explain each of these further.
-
-This projects targets people looking for an introduction to mental health as it not only provides information regarding common mental health issues, it also outlines ways in which a person can manage stress.
-Further to this, this group of people will be able to find self care challenges and guided activities.
-
-This project also caters towards those looking to join a community of people interested in taking part in activities promoting mental health as the website promotes community and events.
+The target audience for this project are individuals/groups looking to engage with others who are looking to further their knowledge into mental wellness. This is achieved as there is a beginners guide to mental health and there is an emphasis placed on joining the community and taking part in the events.
 
 ## User Stories
 
@@ -60,9 +52,42 @@ Include wireframes for key sections of your website.
 Briefly describe the design choices, including layout, colour schemes, and fonts.  
 **Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
 
+#### Mobiles
+On Mobile, the page should open showing the navbar displayed and the hero image with a quote on top of it. The Navbar will appear from a burger icon. As you scroll down the page the purpose paragraph would first show on a white background followed by the 6 Nav Cards which will be on top of a blue background. The Nav Cards would appear in a single file column. Below this there will be the upcoming event section, which will appear in a column with the event description and sign up button above the map iframe. This will be followed by the footer with links and socials which would appear one top of the other.
+
+#### Tablets
+On Tablets, the page will open with the hero image taking up a similar percentage of the viewport. The navbar will be expanded to show the webpage links. The purpose section appears next and following this the Nav Cards. As opposed to the mobile view, the tablet view will show the nav cards in two rows with three cards in each. Following this, the Upcoming Event heading would appear and below will be the event information on the left of the screen and the map to the right, so appearing in the same row. The footer will then be visible which will now show the footer items in a horizontal line across the width of the screen rather than stacked as they were on mobile.
+
+#### Laptops
+The layout will be identical to the tablet view, the content will just appear larger.
+
+#### Screens over 1440px
+On screens above 1440px the webpage will stop growing and just appear horizontally centered. There will be equal margins on both sides.
+
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
 **Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
+
+#### Colours
+The colours used during the course of this project for both background and content have been chosen with both accessibility and the target user in mind. Research suggests that this website should have calm, pastel colours to provide a tranquil feeling to a user accessing the website as such blue, green, yellow and pink were the main suggestions. I also understood that there should be a clear contrast between the background and text appearing in front of it as well as there being a consistent colour layout to make it easier for the user to distinguish between different areas of the page. On this basis, the colours of this project were chosen and I will explain below how and why each colour was used.
+
+##### Light Green - #B6F7BB
+This was used for the background colour of the header and footer as it was considered a calming colour which allowed the content above to be viewed better.
+
+##### Dark Blue - #1C5E84
+This was used for one of the logo words of the logo which appears in the navbar. This provided good contrast from the green background as was used to provide a two toned nature to the logo.
+
+##### Light blue - #64C1F7
+This was arguably the most common colour which appears as it is used for one of the words of the logo and also the predominant background of the webpage sections. In the logo, it provides the desired two tone nature and provides good contrast to the green background. In the background, it provides a calm, sea-like enironment for content to sit on top. It does not catch the user's eye, as to take away from the content which is what the user's eyes should be drawn to.
+
+##### yellow/gold -  #FFD61F
+This was used like a banner to mark more current/active events and ideally would draw the user's attention. This is brighter than the other colours used to provide more emphasis for the reasons stated. This is used on the get involved paged and the evtn header at the bottom of the homepage.
+
+##### Off-White - #fafafa
+This was used predominantly as a background colour which signified the first and last section of the webpage, immediately after the header and immediately before the footer respectively. This was used as an indicator for users that they are approaching the end of the webpage and also contained useful information for the user to take away. This was also used as a description of the tiles on the health information page to provide a subtle hint that the tiles can be clicked.
+
+##### Shade of Black - #191923
+This was used as the font colour for the majority of the page. This provided excellent contrast from the backgraounds used, thus making the content readable. Prior to applying this colour, it was put through an accessibility checker which indicated it was good to use.
 
 ## AI Tools Usage
 
@@ -79,9 +104,19 @@ Describe how DALL-E was used for image generation, including examples of success
 (Include all must-have features)  
 **Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
 
+- easy to navigate webpage
+- information regarding common mental health issues
+- information about ways to deal with stress
+- information about support available
+
 ### Advanced Features (Should-Haves)
 - **Feature 1:** Description of the implemented feature.
 - **Feature 2:** Description of the implemented feature.
+
+- forms to sign up for events
+- different events which are clearly advertised
+- instructions on how to join the community
+- useful resources
 
 (Include all should-have features)  
 **Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
@@ -92,6 +127,12 @@ Describe how DALL-E was used for image generation, including examples of success
 
 (Include any could-have features that were implemented or considered)  
 **Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
+
+- a dedicated community forum
+- a wall of quotes on the community page
+- additional events
+- 30 day challenge - notification of each challenge
+- information above on current website and not external links
 
 ## AI Tools Usage
 
