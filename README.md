@@ -240,6 +240,12 @@ Summarize the results of testing across different devices and screen sizes.
 Mention any issues found and how they were resolved.  
 **Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
 
+Testing of the project took place frequently to ensure any bugs could be dealt with at an early point. These bugs were first investigated using chrome developer tools and the fix put in place there before commiting it to the code.
+
+- Burger Icon does not appear in line with logo in navbar in mobile view
+- - Using chrome developer tools, I found there was a small amount of padding on the nav which was pushing the icon to a new line. 
+-- This padding was removed and this allowed the burger icon to appear as desired.
+
 ### Validation
 Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
 Include the results of the validation process.  
@@ -383,10 +389,22 @@ Describe any challenges faced when integrating AI-generated content and how they
 Provide any additional insights gained during the project and thoughts on the overall process.  
 **Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
 
+Through the course of completing this project I have been able to apply the skills learnt at Code Institute relating to HTML, CSS and Bootstrap in a way I perhaps previously would not have thought. I have found that although an original layout was created, this was iteratively changed as I found better solutions.
+
+Overall, the project has hit the desired objective/brief which was to create a beginner friendly website for individuals who want to learn about common mental health issues and how to manage stress. I have gone above and beyond this by generating a community support type of organisation which encourages people to go a step further and embrace mindfulness and get involved in a range of activities both individual and group. Although, all the desired features could not be included, the project has been a success.
+
 ## Code Attribution
 Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
 **Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
 
+To complete this project, I reflected and reviewed some previous walkthrough projects completed whilst learning to how to implement HTML, CSS and Bootstrap at Code Institute. To be specific for the inline key and value items in the events section at the bottom pf the homepage, I reflected on the [Love Rosie Bootstrap Walkthrough](https://github.com/MFS4711/love-rosie). I also, reviewed the [Love Running Walkthrough](https://github.com/MFS4711/love-running) to reflect on ways to make the navbar stick to the top of the screen. I also incorporated many aspects of [Bootstrap v4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) such as implementing cards and providing form structure.
+
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
 **Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+
+There is major scope for improvement for this project particularly relating to the could have user stories. This includes the unfinished webpages, mindefulness and community, which would have provided increased value on the website as it would further illustrate the ethos of the organisation, to provide mental health information but also act as a safe environment for all people to connect. These pages were not completed due to time constraints and it's lower priority compared to other aspects of the website.
+
+Following the above, another improvement could be to make the page react differently depending on the day of the week, so advertising a particular event. I currently don't possess the ability or knowledge to do this, and so this was not implemented.
+
+There were particular difficulties finding suitable artwork for this project and so, if this organisation were to be a reality, I would spend more time to either search for these further and refine the images or physically take them.
