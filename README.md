@@ -19,31 +19,22 @@ The target audience for this project are individuals/groups looking to engage wi
 ## User Stories
 
 ### Must-Have User Stories
-- **User Story 1:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
-(Include all prioritized must-have features)  
-**Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
+- **User Story 1:** As a user, I can easily access resources related to various mental health topics So that I can learn about symptoms, treatment options, and coping strategies relevant to my needs.
+  **Acceptance Criteria:** Clear guidance to resources section, a webpage clearly outlined with the information in a structured format and clear links for support
+- **User Story 2:** As a user, I can be part of a supportive community So that I can feel less alone in my journey. 
+  **Acceptance Criteria:** Encouragement for community events, both virtual and in-person
 
 ### Should-Have User Stories
-- **User Story 1:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
-(Include all prioritized should-have features)  
-**Guidance:** Document the secondary features that you aim to implement in Phase 3: Should User Stories Implementation & Any Advanced Features. Include clear acceptance criteria for each.
+- **User Story 1:** As a user, I can improve my mental wellness so that I can incorporate small, positive changes into my routine and stay motivated on my mental health journey. 
+  **Acceptance Criteria:** An easy sign-up process for users, stress management techniques
+- **User Story 2:** As a user, I can view a calendar of local support group meetings and mental health events, So that I can find opportunities to connect with others and access in-person resources. 
+  **Acceptance Criteria:** Filters to find events based on specific topics (e.g., anxiety, depression) or demographics (e.g., teens, parents), Details about each event, including a description, how to join, and contact information for organizers.
 
 ### Could-Have User Stories
-- **User Story 1:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
-(Include any could-have features considered for future enhancements)  
-**Guidance:** Document any optional features that are nice to have but not essential.
+- **User Story 1:** As a user, I want personalized content recommendations based on my previous visits and interests, So that I can easily find relevant articles, resources, and tools that suit my needs. 
+  **Acceptance Criteria:** A system that tracks user interactions and preferences to suggest tailored content, Regular updates to recommendations based on new content and user feedback.
+- **User Story 2:** As a user looking for coping strategies, I want an interactive tool that helps me identify and practice different coping skills, So that I can find effective ways to manage my stress and emotions in real time.
+  **Acceptance Criteria:** A user-friendly interface where users can select emotions or situations they’re facing. A variety of coping strategies presented, including mindfulness exercises, breathing techniques, and grounding activities.
 
 ## Design Decisions
 
@@ -216,8 +207,6 @@ Describe how DALL-E was used for image generation, including examples of success
 ## AI Tools Usage
 
 ### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
 
 Github Copilot is a code completion and automatic programming tool which assists users by autocompleting code.
 This has been particularly beneficial when styling with Bootstrap as there are many divs and it can be difficult to identify where these close.
@@ -243,8 +232,9 @@ Mention any issues found and how they were resolved.
 Testing of the project took place frequently to ensure any bugs could be dealt with at an early point. These bugs were first investigated using chrome developer tools and the fix put in place there before commiting it to the code.
 
 - Burger Icon does not appear in line with logo in navbar in mobile view
-- - Using chrome developer tools, I found there was a small amount of padding on the nav which was pushing the icon to a new line. 
--- This padding was removed and this allowed the burger icon to appear as desired.
+
+   Using chrome developer tools, I found there was a small amount of padding on the nav which was pushing the icon to a new line. 
+   This padding was removed by adding a div with a class around the nav and setting the padding to 0.
 
 ### Validation
 Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
