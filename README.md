@@ -3,16 +3,12 @@
 ## Overview
 
 ### Purpose
-A brief description of the project's purpose, what it aims to achieve, and the value it provides to the users.  
-**Guidance:** Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
 
 Mindful Connect is a fictional organisation which aims to raise awareness about mental health and foster a supportive community for individuals seeking help or wanting to learn more about mental wellness.
 This is achieved by providing organised webpages dedicated to different aspects of the purpose. 
 There is a webpage dedicated to mental health information, providing an introduction to mental health issues and the actions a person can take to deal with this as well as the support available. There will be another webpage dedicated to weekly events and providing the option to join the community. Further to this, there is guidance towards wellness and self-care through the application of external links.
 
 ### Target Audience
-Identify the target audience for your website and explain why this audience will benefit from the project.  
-**Guidance:** Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
 
 The target audience for this project are individuals/groups looking to engage with others who are looking to further their knowledge into mental wellness. This is achieved as there is a beginners guide to mental health and there is an emphasis placed on joining the community and taking part in the events. The intended user does not need to be suffering from a mental health condition to find benefit in accessing the webpage, although this has been catered for, they can simply be wary of mental health being prevelant and looking at ways to ensure their's is kept on top of.
 
@@ -158,51 +154,19 @@ I ensured to adhere to accessibility guidelines by using the combinations of col
 
 ![black text - pink background](assets/images/readme-images/black-pink-bg.png "black text - pink background")
 
-
-## AI Tools Usage
-
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
-
 ## Features Implementation
 
 ### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
-
-- easy to navigate webpage
-- information regarding common mental health issues
-- information about ways to deal with stress
-- information about support available
+- **Feature 1:** Easy access to mental health information - There is a clear nav and descriptive cards which, when clicked, take the user to a webpage with a guide to mental health which is clearly structured in a logical way. There are also, some coping messages mentioned.
+- **Feature 2:** Encouragement of community - clear guidance to ways to participate in various activities as well as external access to a community forum
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-- forms to sign up for events
-- different events which are clearly advertised
-- instructions on how to join the community
-- useful resources
-
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
+- **Feature 1:** Improving mental wellness - This has been implemented by encouraging a 30 day self challenge as well as guided meditations. Also, the mental health information page suggests actions to help manage stress
+- **Feature 2:** Calendar of events - partly implemented as on the get involved page there are multiple weekly events shown as well as a means to sign up to the community to be able to join future events.
 
 ### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
-
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
-
-- a dedicated community forum
-- a wall of quotes on the community page
-- additional events
-- 30 day challenge - notification of each challenge
-- information above on current website and not external links
+- **Feature 1:** personalised content - was not implented as such but there are multiple events
+- **Feature 2:** interactive tool - not implemented as must have's and should have's were prioritised.
 
 ## AI Tools Usage
 
