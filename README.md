@@ -195,12 +195,21 @@ Summarize the results of testing across different devices and screen sizes.
 Mention any issues found and how they were resolved.  
 **Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
 
+#### Bug Fixes
 Testing of the project took place frequently to ensure any bugs could be dealt with at an early point. These bugs were first investigated using chrome developer tools and the fix put in place there before commiting it to the code.
 
-- Burger Icon does not appear in line with logo in navbar in mobile view
+- bug fix - burger icon appearing on new line in mobile view - add class on nav's surrounding div and remove padding
+- bug fix - nav items not aligning on large screens - add flex class for larger screens to align nav items
+- bug fix - nav items are not on the right - use bootstrap margin property to push nav items right
+- bug fix - hero-image is not taking up the required viewport - Adjust size of background image to push purpose content further down
+- bug fix - margin between cards and paragraph content is not even - remove bottom margin from paragraph element to make gap between purpose and cards even
+- bug fix - forms are not entirely responsive - use form-row class to enclose form-group to allow form elements to appear on the same / different lines depending on the viewport
+- bug fix - navbar is not sticking to the top of the screen - usee css to fix position and give high z-index
+- bug-fix - first section of content is under the navbar at the top of the page - add class in css to add padding-top equivalent to the navbar height and apply to the first row class div to push the content down
 
-   Using chrome developer tools, I found there was a small amount of padding on the nav which was pushing the icon to a new line. 
-   This padding was removed by adding a div with a class around the nav and setting the padding to 0.
+#### Responsiveness
+
+![Responsiveness on all screens](assets/images/readme-images/responsiveness.png "Responsiveness on all screens")
 
 ### Validation
 Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
@@ -312,9 +321,6 @@ I will outline the errors / warnings encountered and how these were resolved in 
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
 
 The project was deployed early in the process to GitHub Pages to ensure any issues encountered could be resolved quickly.
 Before deploying the project, I ensured to code a navbar to be able to see if the deployed project correlates with my preview.
@@ -324,18 +330,21 @@ The deployed project updated as required after each git push and few, if any, is
 ## Reflection on Development Process
 
 ### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
 
 Through the course of completing this project I have been able to apply the skills learnt at Code Institute relating to HTML, CSS and Bootstrap in a way I perhaps previously would not have thought. I have found that although an original layout was created, this was iteratively changed as I found better solutions.
 
 Overall, the project has hit the desired objective/brief which was to create a beginner friendly website for individuals who want to learn about common mental health issues and how to manage stress. I have gone above and beyond this by generating a community support type of organisation which encourages people to go a step further and embrace mindfulness and get involved in a range of activities both individual and group. Although, all the desired features could not be included, the project has been a success.
 
 ## Code Attribution
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+
+### Code Institute
 
 To complete this project, I reflected and reviewed some previous walkthrough projects completed whilst learning to how to implement HTML, CSS and Bootstrap at Code Institute. To be specific for the inline key and value items in the events section at the bottom pf the homepage, I reflected on the [Love Rosie Bootstrap Walkthrough](https://github.com/MFS4711/love-rosie). I also, reviewed the [Love Running Walkthrough](https://github.com/MFS4711/love-running) to reflect on ways to make the navbar stick to the top of the screen. I also incorporated many aspects of [Bootstrap v4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) such as implementing cards and providing form structure.
+
+### Image sources
+- [Google images](https://www.google.com/search?sca_esv=945b0f90c133864c&q=images&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2jon2iao6KWCaVjfn7ahz_sfz4kQc-hbvsXJ2gNx0RnV2nl305mvoek0YK94ylYY2a4b3Q-OEwW5lKppi2wujywZWmdIJVp8wrsv_g-eh5sWEDXx8JNpgmjsiKj2mZMvftPlZJZz&sa=X&ved=2ahUKEwjS5YTO9qOJAxV9WkEAHXerGu4QtKgLegQIEBAB&biw=1536&bih=695&dpr=1.25) was used for some of the card images
+- [pexels](https://www.pexels.com/) was used as the source of the majority of images used on the page
+- [unsplash](https://unsplash.com/) was used for the arts and crafts photo on the get-involved page
 
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
