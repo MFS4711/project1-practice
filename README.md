@@ -1,8 +1,37 @@
 # Mindful Connect
 ![Logo image for project](assets/images/readme-images/Mindful-connect-readme-image.png "Mindful Connect")
-## Overview
 
-[Live Project](https://mfs4711.github.io/portfolio-project-1/)
+**[Live Project](https://mfs4711.github.io/portfolio-project-1/)**
+
+## Table of Contents
+
+ 1. [Overview](#overview)
+     - [Purpose](#purpose)
+     - [Target Audience](#target-audience)
+ 2. [User Stories](#user-stories)
+     - [Must-Have User Stories](#must-have-user-stories)
+     - [Should-Have User Stories](#should-have-user-stories)
+     - [Could-Have User Stories](#could-have-user-stories)
+ 3. [Design Decisions](#design-decisions)
+     - [Wireframes](#wireframes)
+     - [Colours](#colours)
+     - [Fonts](#fonts)
+ 4. [Features Implementation](#features-implementation)
+     - [Core Features (Must-Haves)](#core-features-must-haves)
+     - [Advanced Features (Should-Haves)](#advanced-features-should-haves)
+     - [Optional Features (Could-Haves)](#advanced-features-should-haves)
+ 5. [AI Tools Usage](#ai-tools-usage)
+     - [Github Copilot](#github-copilot)
+     - [ChatGPT](#chatgpt)
+ 6. [Testing and Validation](#testing-and-validation)
+     - [Testing Results](#testing-results)
+     - [Validation](#validation)
+ 7. [Deployment](#deployment)
+ 8. [Reflection on Development Process](#reflection-on-development-process)
+ 9. [Code Attribution](#code-attribution)
+ 10. [Future Improvements](#future-improvements)
+
+## Overview
 
 ### Purpose
 
@@ -109,31 +138,31 @@ On screens above 1440px the webpage will stop growing and just appear horizontal
 
 ![Wireframe for Larger Screens](assets/images/readme-images/wireframe-larger-get.png "Wireframe for Larger Screens")
 
-#### Colours
+### Colours
 The colours used during the course of this project for both background and content have been chosen with both accessibility and the target user in mind. Research suggests that this website should have calm, pastel colours to provide a tranquil feeling to a user accessing the website as such blue, green, yellow and pink were the main suggestions. I also understood that there should be a clear contrast between the background and text appearing in front of it as well as there being a consistent colour layout to make it easier for the user to distinguish between different areas of the page. On this basis, the colours of this project were chosen and I will explain below how and why each colour was used.
 
-###### Light Green - #B6F7BB
+##### Light Green - #B6F7BB
 This was used for the background colour of the header and footer as it was considered a calming colour which allowed the content above to be viewed better.
 
-###### Dark Blue - #1C5E84
+##### Dark Blue - #1C5E84
 This was used for one of the logo words of the logo which appears in the navbar. This provided good contrast from the green background and was used to provide a two toned nature to the logo.
 
-###### Dark Purple - #170358
+##### Dark Purple - #170358
 This was used for one of the logo words of the logo which appears in the navbar. This provided good contrast from the green background and was used to provide a two toned nature to the logo.
 
-###### Light blue - #64C1F7
+##### Light blue - #64C1F7
 This was arguably the most common colour as it was used more most of the backgrounds. It provides a calm, sea-like enironment for content to sit on top. It does not catch the user's eye, as to take away from the content which is what the user's eyes should be drawn to.
 
-###### yellow/gold -  #FFD61F
+##### yellow/gold -  #FFD61F
 This was used like a banner to mark more current/active events and ideally would draw the user's attention. This is brighter than the other colours used to provide more emphasis for the reasons stated. This is used on the get involved paged and the evtn header at the bottom of the homepage.
 
-###### Off-White - #fafafa
+##### Off-White - #fafafa
 This was used predominantly as a background colour which signified the first and last section of the webpage, immediately after the header and immediately before the footer respectively. This was used as an indicator for users that they are approaching the end of the webpage and also contained useful information for the user to take away. This was also used as a description of the tiles on the health information page to provide a subtle hint that the tiles can be clicked.
 
-###### Shade of Black - #191923
+##### Shade of Black - #191923
 This was used as the font colour for the majority of the page. This provided excellent contrast from the backgraounds used, thus making the content readable. Prior to applying this colour, it was put through an accessibility checker which indicated it was good to use.
 
-#### Fonts
+### Fonts
 There were two fonts used for this project, Roboto and Lato. Lato was used for the headings where as Roboto was used for all other content. The reason for this was that Roboto is one of the most used fonts on the internet and provides a proffessional feel to the webpage. I did not want users to be focused on the font but rather the information and so I felt I should keep with the norm. Lato is a similar font to Roboto and so provides a subtle difference between heading and content.
 
 
@@ -191,9 +220,6 @@ Challenges with this AI software included the need to ask the right questions as
 ## Testing and Validation
 
 ### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
 
 #### Bug Fixes
 Testing of the project took place frequently to ensure any bugs could be dealt with at an early point. These bugs were first investigated using chrome developer tools and the fix put in place there before commiting it to the code.
@@ -347,11 +373,9 @@ To complete this project, I reflected and reviewed some previous walkthrough pro
 - [unsplash](https://unsplash.com/) was used for the arts and crafts photo on the get-involved page
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
 
 There is major scope for improvement for this project particularly relating to the could have user stories. This includes the unfinished webpages, mindefulness and community, which would have provided increased value on the website as it would further illustrate the ethos of the organisation, to provide mental health information but also act as a safe environment for all people to connect. These pages were not completed due to time constraints and it's lower priority compared to other aspects of the website.
 
-Following the above, another improvement could be to make the page react differently depending on the day of the week, so advertising a particular event. I currently don't possess the ability or knowledge to do this, and so this was not implemented.
+Following the above, another improvement could be to make the page more interactive and react differently depending on the day of the week, so advertising a particular event. I currently don't possess the ability or knowledge to do this, and so this was not implemented.
 
-There were particular difficulties finding suitable artwork for this project and so, if this organisation were to be a reality, I would spend more time to either search for these further and refine the images or physically take them.
+There were also particular difficulties finding suitable artwork for this project and so, if this organisation were to be a reality, I would spend more time to either search for these further and refine the images or physically take them.
