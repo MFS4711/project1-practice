@@ -1,7 +1,7 @@
 # Mindful Connect
 ![Logo image for project](assets/images/readme-images/Mindful-connect-readme-image.png "Mindful Connect")
 
-**[Live Project](https://mfs4711.github.io/portfolio-project-1/)**
+**| [Live Project](https://mfs4711.github.io/portfolio-project-1/) |**
 
 ## Table of Contents
 
